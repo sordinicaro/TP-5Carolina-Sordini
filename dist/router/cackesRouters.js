@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.cackesRouters = void 0;
+const cackesController_1 = require("../controller/cackesController");
+const validator_1 = require("../middlware/validator");
+const express_1 = require("express");
+const cackesRouters = (0, express_1.Router)();
+exports.cackesRouters = cackesRouters;
+cackesRouters.post("/", validator_1.validateAuth, cackesController_1.CackesController.createCackes);
+cackesRouters.get("/", cackesController_1.CackesController.getAllCackes);
+cackesRouters.get("/:id", cackesController_1.CackesController.getCackesById);
+cackesRouters.patch("/:id", validator_1.validateAuth, cackesController_1.CackesController.updateCacke);
+cackesRouters.delete("/:id", validator_1.validateAuth, cackesController_1.CackesController.deleteCacke);

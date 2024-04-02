@@ -1,0 +1,62 @@
+
+### ver version
+
+GET http://localhost:4356/api
+
+### ver usuarios
+GET http://localhost:4356/api/users
+
+### query params y allcackes
+GET http://localhost:4356/api/cackes?cacke=Chesse Cacke
+
+
+
+### crear usuario
+
+POST http://localhost:4356/api/users/register
+Content-Type: application/json
+
+{
+     "employee": 4,
+     "username": "Cristina Milano ",
+     "age": 29,
+     "phone": "265698765",
+     "email": "C.MILANO@gmail.com",
+     "password":"834216"
+}
+
+### Get email
+GET http://localhost:4356/api/users/maria@example.com
+Content-Type: application/json
+
+### modificar usuario 
+PATCH  http://localhost:4356/api/users/matias
+Content-Type: application/json
+
+{
+     "employee": 9,
+     "username": "lamatias",
+     "age": 22
+}     
+
+### Delete username
+
+DELETE  http://localhost:4356/api/users/María García
+
+### Login
+POST http://localhost:4356/api/users/login
+Content-Type: application/json
+
+{
+  "username": "Cristina Milano ",
+   "password": "87e44f674be0398844cf8ebd2b3553b8f6da39446c262380db0b49dacad5958f"
+  
+}
+
+### Logout
+DELETE http://localhost:4356/api/users/logout
+Content-Type: application/json
+
+{
+  "username": ""
+}

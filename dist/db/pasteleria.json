@@ -1,0 +1,187 @@
+{
+    "info": {
+        "name": "Pastelería Dulce Delicia",
+        "opening": "2000",
+        "numberOfEmployees": "10",
+        "boss": "Carolina Sordini",
+        "hours": "9am a 19pm"
+    },
+    "employees": [
+        {
+            "employee": "ee15c40f-2e57-46cc-ab0d-373f57eaa2f4",
+            "username": "Candela Lafurcade",
+            "age": 18,
+            "phone": "266535973",
+            "password": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+            "email": "cande@gmail.com",
+            "token": "0a1930ec-7889-4a27-aca0-c18084394055"
+        },
+        {
+            "employee": "ecdb2407-9b72-445f-81fd-074a4cdf3680",
+            "username": "Matias Alaniz",
+            "age": 27,
+            "phone": "278535673",
+            "password": "6ae9e4d22c4670b9140fc378214b3274fb3f64d16058717f974515000680b24c",
+            "email": "matias@gmail.com",
+            "token": "313e3173-59f7-48a7-b825-d0eb3459cb11"
+        },
+        {
+            "employee": "4ffc727d-02ff-41dd-8cb7-f74280415129",
+            "username": "Yesica Gallardo",
+            "age": 37,
+            "phone": "278535673",
+            "password": "8f0f97e140e126a4404a09eb1e14a53b7c742701c4290a5d1702d14daec22ee8",
+            "email": "yesica@gmail.com",
+            "token": "cdb1acc4-c453-4933-bcb8-3d6027f69a98"
+        },
+        {
+            "employee": "457c993b-8455-40b5-89ec-9daba3f04a45",
+            "username": "Ricardo Paez",
+            "age": 37,
+            "phone": "2656123456",
+            "password": "023e33504ab909cf87a6f4e4e545090e40bdc0a2153e5b68b19f7fad2b737904",
+            "email": "rick@gmail.com",
+            "token": "c3f0de48-48ec-4aa6-8052-023109693436"
+        },
+        {
+            "employee": "07b2dcc3-f0ec-409b-9fe8-dee498bfefe3",
+            "username": "Daniela Sordini",
+            "age": 37,
+            "phone": "2656345623",
+            "password": "35a99a53ff1b46f86a14a375742dfd7fefff96a8a2e9c4bcf0fe3546c36c9520",
+            "email": "daniela@gmail.com",
+            "token": "811b1b9d-88ef-4ca6-b6fe-d5cf1c30b3f5"
+        },
+        {
+            "employee": "e2e31a94-d166-4262-a066-a83598e2af73",
+            "username": "Emilia Sanchez",
+            "age": 24,
+            "phone": "2656346789",
+            "password": "08c159cb811c2742199fed6b07c10860a7b8e777515377e20fe0f2d90f230657",
+            "email": "E.sanchez@gmail.com",
+            "token": "e3adee5e-de13-4060-ae87-7d10dc300720"
+        },
+        {
+            "employee": "2bf2dcb2-5645-4ba7-8c5f-42a8b74cf0be",
+            "username": "Monica Alegria",
+            "age": 33,
+            "phone": "265638976",
+            "password": "cdf16f3eb80dcb59e3169cb7e138695dc26baee36df5258c0dc04657c190368a",
+            "email": "monica@gmail.com",
+            "token": "78220d48-6e4d-4280-a57c-6032123d043b"
+        },
+        {
+            "employee": "6ad08679-011a-4876-879b-ab5039fdae68",
+            "username": "Alyssa Alaniz",
+            "age": 18,
+            "phone": "265639876",
+            "password": "b9f24b9a4aba14556f8b8d0f1c3a47b569a7c2982cd28d6bc711624b69431fa1",
+            "email": "Aly@gmail.com",
+            "token": "5cc777ba-d362-4352-9704-9d0e6cdd96cf"
+        },
+        {
+            "employee": "a94b3f15-932e-4ac9-b256-eddf9fabf871",
+            "username": "Victoria Alaniz",
+            "age": 19,
+            "phone": "265639896",
+            "password": "dc2ee521c7b4ea99d986e81943f544268bc4a7496a235aaac475b1be93b95b9f",
+            "email": "viky@gmail.com",
+            "token": "995b556b-dabb-4773-9160-babea80fabef"
+        },
+        {
+            "employee": "943d3f6f-ba0f-4384-869d-3061e52d41c1",
+            "username": "Cristina Milano ",
+            "age": 29,
+            "phone": "265698765",
+            "password": "87e44f674be0398844cf8ebd2b3553b8f6da39446c262380db0b49dacad5958f",
+            "email": "C.MILANO@gmail.com",
+            "token": "961fc4d2-1d5a-4a1b-9dac-4969c657d05e"
+        }
+    ],
+    "cackes": [
+        {
+            "id": "b95c8ab8-04d7-4fb1-a5e2-63716242bd77",
+            "cacke": "Lime Pie",
+            "ingredients": [
+                "lemon",
+                "Flour",
+                "Sugar",
+                "Egg",
+                "cream"
+            ],
+            "size": "big"
+        },
+        {
+            "id": "2ede6cb9-5b95-4928-b2fb-5dde554b366c",
+            "cacke": "Chesse Cacke",
+            "ingredients": [
+                "Vanilla cookies",
+                "Butter",
+                "Sugar",
+                "Eggs",
+                "Cream",
+                "Red berries"
+            ],
+            "size": "small"
+        },
+        {
+            "id": "10702136-bc75-4bb9-ae47-13d1179aef18",
+            "cacke": "Carrot Cacke",
+            "ingredients": [
+                "Flour",
+                "Baking powder",
+                "Baking soda",
+                "Cinnamon",
+                "Eggs",
+                "Sugar",
+                "Carrots",
+                "Cream cheese"
+            ],
+            "size": "medium"
+        },
+        {
+            "id": "542d4335-d177-474f-9fd4-1afe1349adce",
+            "cacke": "Red Velvet",
+            "ingredients": [
+                "Wheat flour",
+                "Granulated sugar",
+                "Baking soda",
+                "Unsweetened cocoa powder",
+                "Salt",
+                "Eggs",
+                "Vegetable oil",
+                "cream of milk",
+                "Vanilla extract",
+                "red food coloring",
+                "White vinegar"
+            ],
+            "size": "big"
+        },
+        {
+            "id": "7cf77619-6258-47ad-993c-fc0f082f69fa",
+            "cacke": "Cacke of Chocolate",
+            "ingredients": [
+                "Chocolate",
+                "Flour",
+                "Sugar",
+                "Egg",
+                "Milk",
+                "Cream of chocolate"
+            ],
+            "size": "Big"
+        },
+        {
+            "id": "2e90e3e3-c5fd-4f0f-abe6-98665827aca4",
+            "cacke": "Cacke of Vanilla",
+            "ingredients": [
+                "Vanilla",
+                "Flour",
+                "Sugar",
+                "Egg",
+                "Milk",
+                "Cream of vanilla"
+            ],
+            "size": "Medium"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+### ver version
+
+GET http://localhost:4356/api/cackes/2e90e3e3-c5fd-4f0f-abe6-98665827aca4
+
+### ver usuarios
+GET http://localhost:4356/api/cackes?cacke=Cacke+of+Vanilla
+
+POST http://localhost:4356/api/cackes/register
+Content-Type: application/json
+
+{
+     "employee": 4,
+     "username": "Cristina Milano ",
+     "age": 29,
+     "phone": "265698765",
+     "email": "C.MILANO@gmail.com",
+     "password":"834216"
+}
+
+### Get email
+GET http://localhost:4356/api/users/maria@example.com
+Content-Type: application/json
+
+### modificar usuario 
+PATCH  http://localhost:4356/api/users/matias
+Content-Type: application/json
+
+{
+     "employee": 9,
+     "username": "lamatias",
+     "age": 22
+}     
+
+### Delete username
+
+DELETE  http://localhost:4356/api/users/María García
+
+### Login
+POST http://localhost:4356/api/users/login
+Content-Type: application/json
+
+{
+  "username": "Alyssa Alaniz",
+  "password": "b9f24b9a4aba14556f8b8d0f1c3a47b569a7c2982cd28d6bc711624b69431fa1"
+  
+}
+
+### Logout
+DELETE http://localhost:4356/api/cackes/b95c8ab8-04d7-4fb1-a5e2-63716242bd77
+Content-Type: application/json
+
+{
+  "id": "b95c8ab8-04d7-4fb1-a5e2-63716242bd77"
+}
