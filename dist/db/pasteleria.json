@@ -2,7 +2,6 @@
     "info": {
         "name": "Pastelería Dulce Delicia",
         "opening": "2000",
-        "numberOfEmployees": "10",
         "boss": "Carolina Sordini",
         "hours": "9am a 19pm"
     },
@@ -77,7 +76,7 @@
             "phone": "265639876",
             "password": "b9f24b9a4aba14556f8b8d0f1c3a47b569a7c2982cd28d6bc711624b69431fa1",
             "email": "Aly@gmail.com",
-            "token": "5cc777ba-d362-4352-9704-9d0e6cdd96cf"
+            "token": "2463390d-9fca-4d35-b5b3-f0772ed509ca"
         },
         {
             "employee": "a94b3f15-932e-4ac9-b256-eddf9fabf871",
@@ -86,7 +85,7 @@
             "phone": "265639896",
             "password": "dc2ee521c7b4ea99d986e81943f544268bc4a7496a235aaac475b1be93b95b9f",
             "email": "viky@gmail.com",
-            "token": "995b556b-dabb-4773-9160-babea80fabef"
+            "token": "6dc0e597-7c85-4c2a-8584-419d635c731c"
         },
         {
             "employee": "943d3f6f-ba0f-4384-869d-3061e52d41c1",
@@ -95,7 +94,25 @@
             "phone": "265698765",
             "password": "87e44f674be0398844cf8ebd2b3553b8f6da39446c262380db0b49dacad5958f",
             "email": "C.MILANO@gmail.com",
-            "token": "961fc4d2-1d5a-4a1b-9dac-4969c657d05e"
+            "token": "1499196f-09ef-41b7-9e1b-36be988ed3e9"
+        },
+        {
+            "employee": "02a594d9-aba9-4def-a6df-c629a1c8e5d7",
+            "username": "Carla Paez",
+            "age": 35,
+            "phone": "2634578765",
+            "password": "423a208ef00aaaed1d8bcf27ef35b25333babbcfd385cdab3131e034ad4ec56d",
+            "email": "C.Paez@gmail.com",
+            "token": ""
+        },
+        {
+            "employee": "e77647df-3129-4000-bdec-432af7785209",
+            "username": "Maria Rodriguez",
+            "age": 35,
+            "phone": "2634578790",
+            "password": "01085be200c18a69fdea0ac07768f5bf7d6952b8dff2d09777ba48084023f656",
+            "email": "maria@gmail.com",
+            "token": ""
         }
     ],
     "cackes": [

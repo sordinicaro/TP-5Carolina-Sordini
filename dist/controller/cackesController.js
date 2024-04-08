@@ -28,9 +28,9 @@ class CackesController {
         const response = cackesModel_1.CackesModel.createCackes(newCacke);
         res.status(201).json(response);
     };
-    static getCackesById = (req, res) => {
+    static readCackeById = (req, res) => {
         const { id } = req.params;
-        const user = cackesModel_1.CackesModel.readUserById(id);
+        const user = cackesModel_1.CackesModel.readCackeById(id);
         if (!user)
             return res.status(404).json({ error: "Cacke not found" });
         res.json(user);

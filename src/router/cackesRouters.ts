@@ -7,7 +7,7 @@ const cackesRouters = Router();
 
 cackesRouters.post("/", validateAuth, CackesController.createCackes);
 cackesRouters.get("/", CackesController.getAllCackes);
-cackesRouters.get("/:id", CackesController.getCackesById);
+cackesRouters.get("/:id", CackesController.readCackeById);
 cackesRouters.patch("/:id", validateAuth, CackesController.updateCacke);
 cackesRouters.delete("/:id", validateAuth, CackesController.deleteCacke)
 

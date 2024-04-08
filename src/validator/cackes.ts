@@ -1,6 +1,6 @@
 import zod from "zod";
 
-const employees = zod.object({
+const cacke = zod.object({
     id: zod.string(),
     cacke: zod.string(),
     ingredients: zod.array(zod.string()),
@@ -11,7 +11,7 @@ const employees = zod.object({
 
 });
 
-const validatePartialCacke = (obj: any) => employees.partial().safeParse(obj);
+const validatePartialCacke = (obj: any) => cacke.partial().safeParse(obj);
 
 
 

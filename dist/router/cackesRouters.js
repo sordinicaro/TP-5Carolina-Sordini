@@ -8,6 +8,6 @@ const cackesRouters = (0, express_1.Router)();
 exports.cackesRouters = cackesRouters;
 cackesRouters.post("/", validator_1.validateAuth, cackesController_1.CackesController.createCackes);
 cackesRouters.get("/", cackesController_1.CackesController.getAllCackes);
-cackesRouters.get("/:id", cackesController_1.CackesController.getCackesById);
+cackesRouters.get("/:id", cackesController_1.CackesController.readCackeById);
 cackesRouters.patch("/:id", validator_1.validateAuth, cackesController_1.CackesController.updateCacke);
 cackesRouters.delete("/:id", validator_1.validateAuth, cackesController_1.CackesController.deleteCacke);

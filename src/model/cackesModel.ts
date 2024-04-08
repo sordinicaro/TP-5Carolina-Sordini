@@ -49,17 +49,16 @@ abstract class CackesModel {
 
         return { message: "Cacke created successfully" };
     }
+    //  no me esta pasando la autorizacion que necesito para modificar las tortas, me cree el token cada vez, pero luego no me deja modificr lo cual antes me debaba
 
 
-    static readUserById = (id: string) => {
+    static readCackeById = (id: string) => {
         const cacke = db.cackes.find((c) => c.id === id)
-        const cackeById = db.cackes.map(cacke => ({
-            cacke: cacke.cacke,
-            ingredients: cacke.ingredients,
-            size: cacke.size
-        }))
-        if (!cacke) return 404;
-        return cackeById;
+
+        if (!cacke) {
+            return { error: "cacke not found" };
+        }
+        return cacke;
     };
 
     static updateCacke = (objUser: any) => {

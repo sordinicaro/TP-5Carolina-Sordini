@@ -13,7 +13,7 @@ const morgan_1 = __importDefault(require("morgan"));
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, morgan_1.default)("dev"));
-const PORT = process.env.PORT_API;
+const PORT = process.env.PORT_API || 4000;
 app.get("/api", (req, res) => {
     res.json(pasteleria_json_1.info);
 });

@@ -88,6 +88,7 @@ abstract class UserModel {
 
       if (user.password !== password) return 400;
 
+
       const token = randomUUID();
 
       user.token = token;

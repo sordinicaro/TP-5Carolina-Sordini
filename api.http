@@ -6,6 +6,15 @@ GET http://localhost:4356/api
 ### ver usuarios
 GET http://localhost:4356/api/users
 
+### Get email
+GET http://localhost:4356/api/users/C.Paez@gmail.com
+
+### ver cackes
+GET http://localhost:4356/api/cackes
+
+### ver cackes por id
+GET http://localhost:4356/api/cackes/542d4335-d177-474f-9fd4-1afe1349adce
+
 ### query params y allcackes
 GET http://localhost:4356/api/cackes?cacke=Chesse Cacke
 
@@ -17,17 +26,14 @@ POST http://localhost:4356/api/users/register
 Content-Type: application/json
 
 {
-     "employee": 4,
-     "username": "Cristina Milano ",
-     "age": 29,
-     "phone": "265698765",
-     "email": "C.MILANO@gmail.com",
-     "password":"834216"
+     "employee": 34,
+     "username": "Maria Rodriguez",
+     "age": 35,
+     "phone": "2634578790",
+     "email": "maria@gmail.com",
+     "password":"678909"
 }
 
-### Get email
-GET http://localhost:4356/api/users/maria@example.com
-Content-Type: application/json
 
 ### modificar usuario 
 PATCH  http://localhost:4356/api/users/matias
@@ -48,7 +54,7 @@ POST http://localhost:4356/api/users/login
 Content-Type: application/json
 
 {
-  "username": "Cristina Milano ",
+   "username": "Cristina Milano ",
    "password": "87e44f674be0398844cf8ebd2b3553b8f6da39446c262380db0b49dacad5958f"
   
 }
@@ -60,3 +66,33 @@ Content-Type: application/json
 {
   "username": ""
 }
+
+
+### crear cacke
+
+POST http://localhost:4356/api/cackes
+Content-Type: application/json
+Authorization: "f6c5cc72-8231-4221-b631-3eafe0d6238a"
+
+{
+     "id": "",
+            "cacke": " of Chocolate",
+            "ingredients": [
+                "Chocolate",
+                "Flour",
+                "Sugar",
+                "Egg",
+                "Milk",
+                "Cream of chocolate"
+            ],
+            "size": "Big"
+}
+
+### modificar cacke
+PATCH  http://localhost:4356/api/cackes/2e90e3e3-c5fd-4f0f-abe6-98665827aca4
+Content-Type: application/json
+Authorization: "21c6c39a-2049-4cec-a7f4-0f6593aaa912"
+
+{
+     "size": "big"
+}  

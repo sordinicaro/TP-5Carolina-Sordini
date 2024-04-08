@@ -41,16 +41,12 @@ class CackesModel {
         jsonfile_1.default.writeFileSync("./src/db/pasteleria.json", pasteleria_json_1.default);
         return { message: "Cacke created successfully" };
     };
-    static readUserById = (id) => {
+    static readCackeById = (id) => {
         const cacke = pasteleria_json_1.default.cackes.find((c) => c.id === id);
-        const cackeById = pasteleria_json_1.default.cackes.map(cacke => ({
-            cacke: cacke.cacke,
-            ingredients: cacke.ingredients,
-            size: cacke.size
-        }));
-        if (!cacke)
-            return 404;
-        return cackeById;
+        if (!cacke) {
+            return { error: "cacke not found" };
+        }
+        return cacke;
     };
     static updateCacke = (objUser) => {
         try {

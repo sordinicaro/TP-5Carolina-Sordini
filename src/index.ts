@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(morgan("dev"));
 
-const PORT = process.env.PORT_API!;
+const PORT = process.env.PORT_API! || 4000;
 
 
 

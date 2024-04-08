@@ -32,9 +32,9 @@ abstract class CackesController {
         res.status(201).json(response);
     }
 
-    static getCackesById = (req: Request, res: Response) => {
+    static readCackeById = (req: Request, res: Response) => {
         const { id } = req.params;
-        const user = CackesModel.readUserById(id);
+        const user = CackesModel.readCackeById(id);
         if (!user) return res.status(404).json({ error: "Cacke not found" });
         res.json(user);
     };
