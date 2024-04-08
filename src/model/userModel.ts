@@ -1,6 +1,7 @@
 import db from "../db/pasteleria.json";
 import jsonfile from "jsonfile";
 import { randomUUID } from "node:crypto";
+import crypto from "node:crypto";
 
 
 
@@ -84,9 +85,11 @@ abstract class UserModel {
 
       const user = db.employees.find((u) => u.username.toLowerCase() === username.toLowerCase());
 
-      if (!user) return 404;
+      if (!user) return { error: "Existing user" };
 
-      if (user.password !== password) return 400;
+      const hashPassword = crypto.createHash("sha256").update(password).digest("hex");
+
+      if (user.password !== hashPassword) return { error: "Bad request" };
 
 
       const token = randomUUID();
